@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1095517132269-5rmrs634u8qv4bq6d4h60h235d7bdvi6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1095517132269-5rmrs634u8qv4bq6d4h60h235d7bdvi6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAJg-dLmhF6QDlpnDcUhc0FFOh29C_nrjQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1095517132269</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>pl.imarin.PerceptronV2</string>
+	<key>PROJECT_ID</key>
+	<string>perceptronv2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>perceptronv2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1095517132269:ios:868b2a46c315d3346b83e4</string>
+	<key>DATABASE_URL</key>
+	<string>https://perceptronv2.firebaseio.com</string>
+</dict>
+</plist>
