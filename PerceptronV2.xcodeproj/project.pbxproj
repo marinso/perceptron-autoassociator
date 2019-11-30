@@ -16,9 +16,8 @@
 		833CC38023660A2100A6AB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833CC37E23660A2100A6AB34 /* Main.storyboard */; };
 		833CC38223660A2300A6AB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833CC38123660A2300A6AB34 /* Assets.xcassets */; };
 		833CC38523660A2300A6AB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833CC38323660A2300A6AB34 /* LaunchScreen.storyboard */; };
-		833CC38D23660AF000A6AB34 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833CC38C23660AF000A6AB34 /* MainView.swift */; };
 		833CC39023660BDA00A6AB34 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833CC38F23660BDA00A6AB34 /* extensions.swift */; };
-		8373AEE22391902C00978F38 /* getPixelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8373AEE12391902C00978F38 /* getPixelDelegate.swift */; };
+		8373AEE22391902C00978F38 /* SetPixelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8373AEE12391902C00978F38 /* SetPixelDelegate.swift */; };
 		83C0E47F237D6E40005C7A95 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0E47E237D6E40005C7A95 /* MainScreen.swift */; };
 		83CF1B6823806A3800E9B3D2 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CF1B6723806A3800E9B3D2 /* Canvas.swift */; };
 /* End PBXBuildFile section */
@@ -36,9 +35,8 @@
 		833CC38123660A2300A6AB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		833CC38423660A2300A6AB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		833CC38623660A2300A6AB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		833CC38C23660AF000A6AB34 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		833CC38F23660BDA00A6AB34 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
-		8373AEE12391902C00978F38 /* getPixelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getPixelDelegate.swift; sourceTree = "<group>"; };
+		8373AEE12391902C00978F38 /* SetPixelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPixelDelegate.swift; sourceTree = "<group>"; };
 		83C0E47E237D6E40005C7A95 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		83CF1B6723806A3800E9B3D2 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
 		A7C41EEBAC2B29428064879B /* Pods-PerceptronV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerceptronV2.debug.xcconfig"; path = "Target Support Files/Pods-PerceptronV2/Pods-PerceptronV2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 			children = (
 				833CC37723660A2100A6AB34 /* PerceptronV2 */,
 				833CC37623660A2100A6AB34 /* Products */,
-				833CC38C23660AF000A6AB34 /* MainView.swift */,
 				E7D161BCC7805A716F47576E /* Pods */,
 				B8BB43182E20C661BE1EA181 /* Frameworks */,
 			);
@@ -96,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				833CC38F23660BDA00A6AB34 /* extensions.swift */,
-				8373AEE12391902C00978F38 /* getPixelDelegate.swift */,
+				8373AEE12391902C00978F38 /* SetPixelDelegate.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -252,14 +249,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833CC38D23660AF000A6AB34 /* MainView.swift in Sources */,
 				833CC37923660A2100A6AB34 /* AppDelegate.swift in Sources */,
 				83C0E47F237D6E40005C7A95 /* MainScreen.swift in Sources */,
 				831AF3822382EB8000ABAD94 /* Perceptron.swift in Sources */,
 				831AF37E2381B8CB00ABAD94 /* Example.swift in Sources */,
 				83CF1B6823806A3800E9B3D2 /* Canvas.swift in Sources */,
 				833CC37B23660A2100A6AB34 /* SceneDelegate.swift in Sources */,
-				8373AEE22391902C00978F38 /* getPixelDelegate.swift in Sources */,
+				8373AEE22391902C00978F38 /* SetPixelDelegate.swift in Sources */,
 				833CC39023660BDA00A6AB34 /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

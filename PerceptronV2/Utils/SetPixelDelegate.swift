@@ -9,5 +9,5 @@
 import Foundation
 
 protocol SetPointsDelegate {
-    func setPoint(_ points:[Float])
+    func setPoints(_ points:[Float])
 }

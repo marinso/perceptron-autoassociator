@@ -55,7 +55,7 @@ class Canvas: UIView {
         points.forEach { (point) in
             table_points[(Int(point.x)) + ( (Int(point.y)) * 50 ) + 1] = 1
         }
-        delegate.setPoint(table_points)
+        delegate.setPoints(table_points)
     }
     
     

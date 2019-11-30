@@ -10,7 +10,7 @@ import Foundation
 import FirebaseDatabase
 import Accelerate
 
-var ile = 0
+private var numberOfPerceptronsLerned = 0
 
 class Perceptron {
         
@@ -63,8 +63,8 @@ class Perceptron {
             }
         }
         self.weights = pocketRecord.weights
-        ile += 1
-        print(ile)
+        numberOfPerceptronsLerned += 1
+        print("Perceptron number:", numberOfPerceptronsLerned)
     }
     
     private func trashholdFunc(_ table:[Float]) -> Int {

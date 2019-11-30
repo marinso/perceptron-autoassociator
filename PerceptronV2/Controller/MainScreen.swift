@@ -127,7 +127,7 @@ class MainScreen: UIViewController, SetPointsDelegate {
     }
     
     // MARK: - CustomViewActions
-    func setPoint(_ points: [Float]) {
+    func setPoints(_ points: [Float]) {
         self.table = points
     }
     
@@ -140,7 +140,6 @@ class MainScreen: UIViewController, SetPointsDelegate {
         table = current_table
         
         rightView.reDraw(table)
-//        leftView.reDraw(table)
     }
     
     
@@ -153,7 +152,6 @@ class MainScreen: UIViewController, SetPointsDelegate {
     }
     
     @objc func checkResult() {
-//        table_2 = table
         
         for i in 0...2499
         {
@@ -207,7 +205,6 @@ class MainScreen: UIViewController, SetPointsDelegate {
     }
     
     private func setTable() {
-//        table = [Float](repeating: 0.0, count: 2500)
         table_2 = [Float](repeating: 0.0, count: 2500)
         table_2.insert(1, at: 0)
     }
